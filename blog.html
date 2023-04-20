@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logistics Blog</title>
+    <link rel="stylesheet" href="blog.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="delivery-truck-with-packages-behind.png" alt="logopic">
+            <div class="logo-text">OVERNIGHT LOGISTICS</div>
+        </div>
+      <nav>
+        <ul>
+          <li><a href="overnight1.html">Home</a></li>
+          <li><a href="product2.html">Products</a></li>
+          <li><a href="/blog/blog.html">Blog</a></li>
+          <li><a href="/contact us/contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Overnight Logistics Blog</h1>
+        <p>Read the latest news and insights from the logistics industry.</p>
+      </div>
+    </header>
+    
+    <section class="blog">
+      <div class="post">
+        <img src="aerial-view-cargo-ship-cargo-container-harbor.jpg" alt="Blog Post Image">
+        <h2>How Technology is Changing the Logistics Industry</h2>
+        <p>Technology is having a major impact on the logistics industry, from AI-powered warehouses to self-driving trucks.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="post">
+        <img src="young-man-working-warehouse-with-boxes.jpg" alt="Blog Post Image">
+        <h2>The Importance of Supply Chain Visibility</h2>
+        <p>Supply chain visibility is crucial for businesses to ensure they are meeting customer demands and managing inventory efficiently.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="post">
+        <img src="industrial-port-container-yard.jpg" alt="Blog Post Image">
+        <h2>The Future of Last-Mile Delivery</h2>
+        <p>Last-mile delivery is becoming increasingly important as more people shop online. What does the future hold for this sector?</p>
+        <a href="#">Read More</a>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 Global Shipping & Logistics Solutions. All Rights Reserved.</p>
+    </footer>
+    
+    
+    <script>
+        const myLink = document.getElementById("myLink");
+
+        myLink.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default behavior of the link
+  
+        // Open a new window with the specified URL and window features
+        window.open("blog.html", "myPopup", "width=400,height=400");
+        });
+    </script>
+  </body>
+</html>
